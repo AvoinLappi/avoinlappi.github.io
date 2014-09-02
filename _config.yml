@@ -1,7 +1,9 @@
-# Jekyll
+## Jekyll
 
+# Outputting
 
-# Site
+defaults:
+  title: Avoin Lappi (Open Lapland)
 
-avoinlappi:
-	title: Avoin Lappi (Open Lapland)
+## Site
+
