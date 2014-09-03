@@ -1,4 +1,29 @@
-## Jekyll
+
+## Standard jekyll configuration
+
+permalink: /articles/:title
+
+#pygments: true
+
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+
+markdown: rdiscount
+
+github:
+  username: github/training.github.com
+
+disqus:
+  id: githubteachingmaterials
 
 # Outputting
 
@@ -6,4 +31,3 @@ defaults:
   title: Avoin Lappi (Open Lapland)
 
 ## Site
-
