@@ -1,4 +1,11 @@
+/* Elements */
 
 body {
     background-color: #e0foe8;
+}
+
+/* Classes */
+
+.footer {
+    border-top: 1px solid #222;
 }
