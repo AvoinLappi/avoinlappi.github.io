@@ -1,9 +1,0 @@
----
-layout: default
-title: Ensimmäinen test-postaus
----
-
-<b>{{page.title}}</b>
-
-Testataan..
-
