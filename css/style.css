@@ -8,4 +8,37 @@ body {
 
 .footer {
     border-top: 1px solid #222;
+
+/*    width: 550px; */
+    width: 90%;
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+/*    font-weight: bold; */
+    text-align: left;
+/*    text-shadow: 3px 2px 3px #333333; */
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+
+.footer ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.footer li {
+    display: inline;
+    padding: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #00F;
+    padding: 8px 8px 8px 8px;
+}
+
+.footer a:hover {
+    color: #f11;
+    background-color: #FFF;
 }
