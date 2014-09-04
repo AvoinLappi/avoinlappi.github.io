@@ -6,9 +6,15 @@ body {
 
 /* Classes */
 
+.header {
+    border-bottom: 1px solid #222;
+}
+
 .footer {
     border-top: 1px solid #222;
+}
 
+.nav {
 /*    width: 550px; */
     width: 90%;
     height: 35px;
@@ -21,24 +27,24 @@ body {
     border-radius: 3px;
 }
 
-.footer ul {
+.nav ul {
     height: auto;
     padding: 8px 0px;
     margin: 0px;
 }
 
-.footer li {
+.nav li {
     display: inline;
     padding: 20px;
 }
 
-.footer a {
+.nav a {
     text-decoration: none;
     color: #00F;
     padding: 8px 8px 8px 8px;
 }
 
-.footer a:hover {
+.nav a:hover {
     color: #f11;
     background-color: #FFF;
 }
