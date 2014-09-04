@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Testi, ensimmäinen postaus
+title: Ensimmäinen test-postaus
 ---
 
--- testataan --
+#{{page.title}}
+
+Testataan..
