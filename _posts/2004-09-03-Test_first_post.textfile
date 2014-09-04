@@ -3,6 +3,7 @@ layout: default
 title: Ensimmäinen test-postaus
 ---
 
-#{{page.title}}
+<b>{{page.title}}</b>
 
 Testataan..
+
