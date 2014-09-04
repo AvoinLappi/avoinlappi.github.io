@@ -1,12 +1,7 @@
-<!DOCTYPE HTML>
-<html lang="fi-FI">
-  {% include head.html %}
-
-  <body>
-    {% include header.html %}
-    <h2>{{ page.title }}</h2>
-    {{ content }}
-    {% include footer.html %}
-  </body>
-
-</html>
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<div id="post">
+  {{ content }}
+</div>
